@@ -1,0 +1,38 @@
+ballspongbody{ padding:10px; }
+#campo{ width:880px; height:480px; background: green; position:relative; overflow:hidden; }
+#campo span, #campo em{ display: block; position: absolute; background:white; overflow:hidden; text-indent:-9999px; }
+#campo .raquete{ top:200px; height:100px; width:10px;  }
+#campo #raquete_1{ left: 10px; background: black; }
+#campo #raquete_2{ right: 10px; background: black;}
+#campo #rede{ width:2px; height: 600px; top:0; left:50%; }
+#campo #bola{ width: 16px; height: 16px; top: 50%; left:50%; border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%; background: red}
+#campo span.start_raquete{ left:420px;  }
+#campo #bola .corner{ background:#000; width:4px; height:4px; }
+#campo #bola #c_lt{ top:0; left:0; }
+#campo #bola #c_rt{ top:0; right:0; }
+#campo #bola #c_lb{ bottom:0; left:0; }
+#campo #bola #c_rb{ bottom:0; right:0; }
+#campo #playgame{ text-indent:0; padding: 10px; font:bold 15px Tahoma; color:#999; height:35px; vertical-align:middle; width: 60px; text-align:center; left:400px; top: 220px; cursor:pointer; }
+#campo #player_1{top:200px; height:150px; width: auto;}
+
+#placar { margin: 5px 0; height: 28px; position: relative; width:880px;  }
+#placar span{ height: 28px; font:bold 28px Tahoma; color:#999; line-height: 28px; vertical-align: middle; position: absolute; top:0; }
+#placar span#time_1{ left:0; }
+#placar span#time_2{ right:0; }
+
+p.intro, p.dificuldade, p.dificuldade select{ font:13px Tahoma; color:#999; }
+p.dificuldade select { border: 1px solid #000; padding-left:3px; }
+
+p.intro { margin-bottom: 10px; }
+p.intro strong{ color:#000; font-size:14px; }
+
+.player{
+   /* display:table;*/
+   /*float:left;*/
+    width: 300px;
+    margin-left: 375px;
+    margin-right: 10px;
+
+}
