@@ -48,7 +48,7 @@ $(document).ready(function(){
 		playButton
 			.show()
 			.height(45)
-			.html('Voce Perdeu');
+			.html('Acabou');
 		bola.hide();
 		window.setTimeout(function(){
 			playButton
